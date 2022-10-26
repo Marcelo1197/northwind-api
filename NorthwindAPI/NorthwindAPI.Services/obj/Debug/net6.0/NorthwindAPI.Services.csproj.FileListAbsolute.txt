@@ -1,0 +1,14 @@
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\bin\Debug\net6.0\NorthwindAPI.Services.deps.json
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\bin\Debug\net6.0\NorthwindAPI.Services.runtimeconfig.json
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\bin\Debug\net6.0\NorthwindAPI.Services.dll
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\bin\Debug\net6.0\NorthwindAPI.Services.pdb
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.csproj.AssemblyReference.cache
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.AssemblyInfoInputs.cache
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.AssemblyInfo.cs
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.csproj.CoreCompileInputs.cache
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.dll
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\refint\NorthwindAPI.Services.dll
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.pdb
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\NorthwindAPI.Services.genruntimeconfig.cache
+C:\Proyectos\backend\ApiOpenBootCamp\NorthwindAPI\NorthwindAPI.Services\obj\Debug\net6.0\ref\NorthwindAPI.Services.dll

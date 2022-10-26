@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Logic\\NorthwindAPI.Logic.csproj": {}
+  },
+  "projects": {
+    "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj",
+        "projectName": "NorthwindAPI.AccessData",
+        "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj": {
+                "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj"
+              },
+              "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj": {
+                "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj",
+        "projectName": "NorthwindAPI.Domain",
+        "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj": {
+                "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj",
+        "projectName": "NorthwindAPI.Entities",
+        "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\NorthwindAPI.Entities.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Logic\\NorthwindAPI.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Logic\\NorthwindAPI.Logic.csproj",
+        "projectName": "NorthwindAPI.Logic",
+        "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Logic\\NorthwindAPI.Logic.csproj",
+        "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj": {
+                "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj"
+              },
+              "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj": {
+                "projectPath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.Domain\\NorthwindAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
