@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NorthwindAPI.Common\NorthwindAPI.Common.csproj" />
     <ProjectReference Include="..\NorthwindAPI.Domain\NorthwindAPI.Domain.csproj" />
     <ProjectReference Include="..\NorthwindAPI.Logic\NorthwindAPI.Logic.csproj" />
   </ItemGroup>

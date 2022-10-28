@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using NorthwindAPI.Domain.Models.Shipper.Request;
 using NorthwindAPI.Domain.Models.Shipper.Response;
 using NorthwindAPI.Logic;
@@ -10,14 +11,21 @@ namespace NorthwindAPI.Controllers
     public class ShipperController : ControllerBase
     {
         private ShipperLogic _logic = new ShipperLogic();
+        private readonly IMapper _mapper;
+
+        public ShipperController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
 
         [HttpGet]
         [Route("shippers/{id}")]
         public async Task<ActionResult<ResponseShipper>> Get(int id) {
             if (ModelState.IsValid)
             {
-                var shipperFound = _logic.Get(id);
-                return Ok(shipperFound);
+                var shipperEntityFound = _logic.Get(id);
+                var shipperResponse = _mapper.Map<ResponseShipper>(shipperEntityFound);
+                return Ok(shipperResponse);
             }
             else
             {
@@ -55,14 +63,29 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("shipper/edit")]
+        [HttpPut]
+        [Route("shipper")]
         public async Task<ActionResult<ResponseShipper>> Edit([FromBody] RequestEditShipper shipper)
         {
             if (ModelState.IsValid)
             {
                 _logic.Update(shipper);
                 return Ok(shipper);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete]
+        [Route("shippers/{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                _logic.Delete(id);
+                return Ok();
             }
             else
             {

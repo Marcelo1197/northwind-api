@@ -5,27 +5,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NorthwindAPI.Entities;
 
 namespace NorthwindAPI.Logic
 {
     public class ShipperLogic : BaseLogic
     {
-        public ResponseShipper Get(int id)
+        public Shipper Get(int id)
         {
             try
             {
-                var shipperFinded = _context.Shippers.Find(id);
-                if (shipperFinded == null)
+                var shipperFound = _context.Shippers.Find(id);
+                if (shipperFound == null)
                 {
                     throw new Exception(); //TODO: manage ex
                 }
-                var responseShipper = new ResponseShipper
-                {
-                    ShipperId = shipperFinded.ShipperId,
-                    CompanyName = shipperFinded.CompanyName,
-                    Phone = shipperFinded.Phone,
-                };
-                return responseShipper;
+
+                return shipperFound;
             }
             catch (Exception)
             {

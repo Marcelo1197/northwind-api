@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NorthwindAPI.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,17 +12,13 @@ namespace NorthwindAPI.Domain.Models.Shipper.Response
     {
         public ResponseShipper()
         {
-            Orders = new HashSet<OrderResponse>();
+            Orders = new HashSet<Order>();
         }
 
-        [Required]
         public int ShipperId { get; set; }
-
-        [Required]
         public string CompanyName { get; set; } = null!;
-        
         public string? Phone { get; set; }
 
-        public virtual ICollection<OrderResponse> Orders { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

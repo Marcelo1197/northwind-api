@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5LkO1PydN+BCVe+gC8JYNlSov8z9qWu5XXD9l2urCkKAYExmVHPXaP8lgQ6kjN2g2vQHtocPffELxkLhnevgxQ==",
+  "dgSpecHash": "PzTwLAHNuV9fK3OUUyDpJdTQ4ec2n+rNL4y3/t3MQb+SbYXLooBvGW6gzxDs7C51635kugDLxJ3vv6+BAMbllQ==",
   "success": true,
   "projectFilePath": "C:\\Proyectos\\backend\\northwind-api\\NorthwindAPI\\NorthwindAPI.AccessData\\NorthwindAPI.AccessData.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Marcelo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Marcelo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Marcelo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Marcelo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

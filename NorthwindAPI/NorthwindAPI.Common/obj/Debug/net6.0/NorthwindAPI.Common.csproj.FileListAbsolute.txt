@@ -1,0 +1,12 @@
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\bin\Debug\net6.0\NorthwindAPI.Common.deps.json
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\bin\Debug\net6.0\NorthwindAPI.Common.dll
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\bin\Debug\net6.0\NorthwindAPI.Common.pdb
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.csproj.AssemblyReference.cache
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.AssemblyInfoInputs.cache
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.AssemblyInfo.cs
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.csproj.CoreCompileInputs.cache
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.dll
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\refint\NorthwindAPI.Common.dll
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\NorthwindAPI.Common.pdb
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI.Common\obj\Debug\net6.0\ref\NorthwindAPI.Common.dll
