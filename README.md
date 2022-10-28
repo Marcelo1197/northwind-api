@@ -8,13 +8,13 @@ Por ahora cuenta con las operaciones básicas de un CRUD.
 #### Debe descargar e instalar:
 * **[VisualStudio](https://visualstudio.microsoft.com/es/)**
 * **[SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads)**
-* **[SQL Server Managment Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)**
+* **[SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)**
 
 ## Usar
 
 #### Crear la base de datos
 
-* Abrir los [scripts](https://github.com/Marcelo1197/northwind-api/tree/main/sql-scripts) de SQL para crear/insertar los datos
+* Abrir los [scripts](https://github.com/Marcelo1197/northwind-api/tree/main/sql-scripts) de SQL para crear/insertar los datos con SQL Server Management Studio
 * Ejecutarlos con F5
 
 #### Configurar conexión a la Base de Datos
