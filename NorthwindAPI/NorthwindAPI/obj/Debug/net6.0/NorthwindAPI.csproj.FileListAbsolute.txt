@@ -141,3 +141,4 @@ C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI\obj\Debug\net6.0\re
 C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI\obj\Debug\net6.0\NorthwindAPI.pdb
 C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI\obj\Debug\net6.0\NorthwindAPI.genruntimeconfig.cache
 C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI\obj\Debug\net6.0\ref\NorthwindAPI.dll
+C:\Proyectos\backend\northwind-api\NorthwindAPI\NorthwindAPI\obj\Debug\net6.0\NorthwindAPI.MvcApplicationPartsAssemblyInfo.cs

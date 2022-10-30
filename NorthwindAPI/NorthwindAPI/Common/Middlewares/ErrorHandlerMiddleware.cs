@@ -31,12 +31,15 @@ namespace NorthwindAPI.Common.Middlewares
                 {
                     case ApiException err:
                         response.StatusCode = (int)HttpStatusCode.BadRequest;
+                        responseModel.Message = "Ocurrió un error en la API.";
                         break;
                     case KeyNotFoundException err:
                         response.StatusCode = (int)HttpStatusCode.NotFound;
+                        responseModel.Message = "Hubo un error al intentar encontrar el ID especificado.";
                         break;
                     default:
                         response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                        responseModel.Message = "Hubo un error interno del servidor. Intente más tarde.";
                         break;
                 }
                 var result = JsonSerializer.Serialize(responseModel);
